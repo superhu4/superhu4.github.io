@@ -24,8 +24,12 @@
   }
   </script>
   <style>
+:root {
+  --article-max-width: 40rem;
+}
+
 html {
-  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-family: Georgia,serif;
   line-height: 1.4;
 }
 @media (prefers-color-scheme: dark) {
@@ -36,8 +40,22 @@ html {
 }
 
 body{
-  margin :1.2em;
+  margin : 1.2em;
+  margin-top: 4rem;
   font-size: 1rem;
+}
+
+header, main, footer {	
+  max-width: var(--article-max-width);	
+  margin: 0 auto;	
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+main {
+  margin-top: 4rem;
 }
 
 .pages {
@@ -46,12 +64,16 @@ body{
 }
 
 .pages li {
-  padding-block-end: 0.5rem;
+  padding-block-end: 1rem;
 }
 
 .pages li::marker {
   content: attr(year) " - ";
   color: #838383;
+}
+
+.pages li a {
+  text-wrap: balance;
 }
 
 a,
@@ -66,7 +88,20 @@ a:visited {
   }
 }
 
+@view-transition {
+  navigation: auto;
+}
 
+/* View transitions. Only if OK to use motion */
+@media not (prefers-reduced-motion: reduce) {
+  h1 {
+    view-transition-name: title;
+  }
+
+  .pages li a:hover {
+    view-transition-name: article-title;
+  }
+}
   </style>
  </head>
  <body>
