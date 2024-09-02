@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-family: Georgia,serif;
   line-height: 1.4;
 }
 @media (prefers-color-scheme: dark) {
@@ -17,12 +17,17 @@ html {
   background-color: #FFFFFF;
 }
 
+h2 {
+  /* view-transition-name: title; */
+  /* background-color: red; */
+}
+
 body{
   margin:1.2em;
   font-size:1rem;
 }
 
-header, main {	
+header, main, footer {	
   max-width: var(--article-max-width);	
   margin: 0 auto;	
 }
@@ -57,6 +62,7 @@ h1{
   
 h2{
   font-size: 1.75em;
+  text-wrap: balance;
 }
 
 h3{
@@ -143,4 +149,18 @@ pre > code{
   min-width:100%;
   border-right:3px solid white;
   border-left:1px solid white;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+@media not (prefers-reduced-motion: reduce) {
+  h1{
+    view-transition-name: title;
+  }
+
+  h2{
+    view-transition-name: article-title;
+  }
 }
