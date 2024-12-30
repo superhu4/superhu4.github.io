@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Heritage Church Collaborative</title>
+    <!-- Minified version -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <!-- Un-Minified version -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
   <header>
     <nav>
       <a aria-current="page" href="index.html">Home</a>
@@ -7,5 +20,23 @@
     </nav>
   </header>
 
+  <main>
 
-hello world
+    <figure>
+      <img alt="Chinese Heritage Church Collaborative logo" src="chcclogo.png" />
+      <figcaption></figcaption>
+    </figure>
+
+    # Hello world
+
+    - 1
+    - 2
+    - 3
+
+  </main>
+
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>
