@@ -1,8 +1,3 @@
----
-title: My Markdown Website
-layout: default
----
-
 <!-- Minified version -->
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 
