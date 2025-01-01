@@ -5,8 +5,6 @@
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
 
 
-<link rel="stylesheet" href="styles.css">
-
 <header>
   <nav>
     <ul>
