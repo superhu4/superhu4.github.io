@@ -1,16 +1,14 @@
 ---
+title: My Markdown Website
 layout: default
 ---
+
 <!-- Minified version -->
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 
 <!-- Un-Minified version -->
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
 
----
-title: My Markdown Website
-layout: default
----
 
 <link rel="stylesheet" href="styles.css">
 
