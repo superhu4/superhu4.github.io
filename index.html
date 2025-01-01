@@ -1,36 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinese Heritage Church Collaborative</title>
-    <!-- Minified version -->
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-    <!-- Un-Minified version -->
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
-    <link rel="stylesheet" href="custom.css">
-</head>
-<body>
+ <head>
+  <title>Test's essays</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="So many drafts, so few posts">
+  <meta name="author" content="Test Person">
+  <link rel="icon" type="image/svg+xml" href="/icon.svg">
+  
+  <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Test's essays feed" />
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Test's essays">
+  <meta property="og:description" content="So many drafts, so few posts">
+  <meta property="og:url" content="https://superhu4.github.io">
+  <!-- <meta property="og:image" content="https://superhu4.github.io"> -->
+  <script type="application/ld+json">
+   {
+    "@context": "http://schema.org",
+    "@type": "Blog",
+    "author": "Test Person",
+    "name": "Test's essays",
+    "description": "So many drafts, so few posts"
+  }
+  </script>
+  <style>
+:root {
+  --article-max-width: 40rem;
+}
+
+html {
+  font-family: Georgia,serif;
+  line-height: 1.4;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #121212;
+    color: #FFFFFF;
+  }
+}
+
+body{
+  margin : 1.2em;
+  margin-top: 4rem;
+  font-size: 1rem;
+}
+
+header, main, footer {	
+  max-width: var(--article-max-width);	
+  margin: 0 auto;	
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+main {
+  margin-top: 4rem;
+}
+
+.pages {
+  margin: 0;
+  padding-inline-start: 6ch;
+}
+
+.pages li {
+  padding-block-end: 1rem;
+}
+
+.pages li::marker {
+  content: attr(year) " - ";
+  color: #838383;
+}
+
+.pages li a {
+  text-wrap: balance;
+}
+
+a,
+a:visited {
+  color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  a,
+  a:visited {
+    color: #FFFFFF;
+  }
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+/* View transitions. Only if OK to use motion */
+@media not (prefers-reduced-motion: reduce) {
+  h1 {
+    view-transition-name: title;
+  }
+
+  .pages li a:hover {
+    view-transition-name: article-title;
+  }
+}
+
+
+
+
+  </style>
+ </head>
+ <body>
   <header>
-    <nav>
-      <a aria-current="page" href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="collective2025.html">Collective 2025</a>
-      <a href="jobs.html">Jobs</a>
-    </nav>
+   <h1>
+   Hainese Community Group of Indianapolis
+   </h1>
+   <p>
+    Thoughts that don't fit elsewhere.
+   </p>
   </header>
-
   <main>
-
-    <figure>
-      <img alt="Chinese Heritage Church Collaborative logo" src="chcclogo.png" />
-      <figcaption></figcaption>
-    </figure>
-
+   <figure>
+   <img src="4.svg" alt="Tree Image">
+   </figure>
+   <ol class="pages">
+   <li><a href="test">This is post</a></li>
+   <li><a href="first">First</a></li>
+   <li>About</li>
+   <li>Sermons</li>
+   <li>Calendar</li>
+   <li>Ministries</li>
+   <li>Resources</li>
+   <li>Daily Guide</li>
+   </ol>
   </main>
-
   <footer>
-    <p></p>
   </footer>
-</body>
+ </body>
 </html>
+
+
