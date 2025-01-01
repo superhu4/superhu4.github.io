@@ -15,7 +15,7 @@ layout: default
 <header>
   <nav>
     <ul>
-      <li><a href="index.html" class="current">Home</a></li>
+      <li><a aria-current="page" href="index.html" class="current">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
@@ -31,4 +31,11 @@ This is a Markdown-based website styled with an external CSS file. The navigatio
 - Easy to use
 - Customizable with CSS
 - Hosted on GitHub Pages
+
+<a class="button" href="#">Click me</a>
+
+## Another Test
+
+- 1
+- 2
 
