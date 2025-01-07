@@ -18,6 +18,8 @@
 
 This is a Markdown-based website styled with an external CSS file. The navigation above is styled using the custom CSS.
 
+Link to [about](about).
+
 ## Features
 
 - Easy to use
