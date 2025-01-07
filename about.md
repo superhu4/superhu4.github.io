@@ -14,7 +14,19 @@
   </nav>
 </header>
 
-# This is about.
+# Welcome to About
 
-Hello world.
+This is a Markdown-based website styled with an external CSS file. The navigation above is styled using the custom CSS.
 
+## Features
+
+- Easy to use
+- Customizable with CSS
+- Hosted on GitHub Pages
+
+<a class="button" href="#">Click me</a>
+
+## Another Test
+
+- 1
+- 2
