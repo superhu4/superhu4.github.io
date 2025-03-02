@@ -4,7 +4,6 @@
 <!-- Un-Minified version -->
 <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
 
-
 <header>
   <nav>
     <ul>
