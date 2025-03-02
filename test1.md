@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinese Heritage Church Collaborative</title>
-
-    <link rel="icon" href="https://www.chineseheritagechurch.com/favicon.ico?v=2" />
+    <title>test1</title>
+  
     <!-- Minified version -->
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
     <!-- Un-Minified version -->
@@ -17,7 +15,6 @@
   <header>
     <nav>
       <a href="about/">About</a>
-      <a href="collective2025/">Collective 2025</a>
       <a href="jobs/">Jobs</a>
     </nav>
   </header>
