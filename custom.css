@@ -1,0 +1,19 @@
+:root {
+  --accent-bg: #f5f7ff;
+  --sans-font: Charter, "Times New Roman", serif;
+}
+
+
+
+body {
+  font-size: 1.3rem;
+  /*font-size: 25px;*/
+  grid-template-columns: 1fr min(40rem, 90%) 1fr;
+  line-height: 1.3;
+}
+
+
+
+h2 {
+  font-style: italic;
+}
